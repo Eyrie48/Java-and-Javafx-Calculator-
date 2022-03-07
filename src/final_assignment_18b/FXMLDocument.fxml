@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="406.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_assignment_18b.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="201.0" layoutY="342.0" onAction="#handle_EqualButtonAction" prefHeight="48.0" prefWidth="48.0" text="=">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="oneButton" layoutX="16.0" layoutY="278.0" mnemonicParsing="false" onAction="#handle_OneButtonAction" prefHeight="48.0" prefWidth="48.0" text="1" />
+      <Button fx:id="twoButton" layoutX="78.0" layoutY="278.0" mnemonicParsing="false" onAction="#handle_TwBouttonAction" prefHeight="48.0" prefWidth="48.0" text="2" />
+      <Button fx:id="threeButton" layoutX="137.0" layoutY="278.0" mnemonicParsing="false" onAction="#handle_ThreeButtonAction" prefHeight="48.0" prefWidth="48.0" text="3" />
+      <Button fx:id="fourButton" layoutX="16.0" layoutY="214.0" mnemonicParsing="false" onAction="#handle_FourButtonAction" prefHeight="48.0" prefWidth="48.0" text="4" />
+      <Button fx:id="fiveButton" layoutX="78.0" layoutY="214.0" mnemonicParsing="false" onAction="#handle_FiveButtonAction" prefHeight="48.0" prefWidth="48.0" text="5" />
+      <Button fx:id="sixButton" layoutX="137.0" layoutY="214.0" mnemonicParsing="false" onAction="#handle_SixButtonAction" prefHeight="48.0" prefWidth="48.0" text="6" />
+      <Button fx:id="sevenButton" layoutX="16.0" layoutY="151.0" mnemonicParsing="false" onAction="#handle_SevenButtonAction" prefHeight="48.0" prefWidth="48.0" text="7" />
+      <Button fx:id="eightButton" layoutX="78.0" layoutY="151.0" mnemonicParsing="false" onAction="#handle_EightButtonAction" prefHeight="48.0" prefWidth="48.0" text="8" />
+      <Button fx:id="nineButton" layoutX="137.0" layoutY="151.0" mnemonicParsing="false" onAction="#handle_NineButtonAction" prefHeight="48.0" prefWidth="48.0" text="9" />
+      <Button fx:id="zeroButton" layoutX="78.0" layoutY="342.0" mnemonicParsing="false" onAction="#handle_ZeroButtonAction" prefHeight="48.0" prefWidth="48.0" text="0" />
+      <Button fx:id="multiplyButton" layoutX="201.0" layoutY="151.0" mnemonicParsing="false" onAction="#handle_MultiplyButtonAction" prefHeight="48.0" prefWidth="48.0" text="X" />
+      <Button fx:id="divideButton" layoutX="201.0" layoutY="89.0" mnemonicParsing="false" onAction="#handle_DivideButtonAction" prefHeight="48.0" prefWidth="48.0" text="/">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="minusButton" layoutX="201.0" layoutY="214.0" mnemonicParsing="false" onAction="#handle_MinusButtonAction" prefHeight="48.0" prefWidth="48.0" text="-">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="plusButton" layoutX="201.0" layoutY="278.0" mnemonicParsing="false" onAction="#handle_PlusButtonAction" prefHeight="48.0" prefWidth="48.0" text="+">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="clearInput" layoutX="16.0" layoutY="89.0" mnemonicParsing="false" onAction="#handle_ClearButtonAction" prefHeight="48.0" prefWidth="48.0" text="CE" />
+      <Button fx:id="clearExpression" layoutX="78.0" layoutY="89.0" mnemonicParsing="false" onAction="#handle_ClearAllButtonAction" prefHeight="48.0" prefWidth="48.0" text="C" />
+      <Button fx:id="decimalButton" layoutX="137.0" layoutY="342.0" mnemonicParsing="false" onAction="#handle_DecimalButtonAction" prefHeight="48.0" prefWidth="48.0" text=".">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <TextField fx:id="inputTextField" alignment="CENTER_RIGHT" layoutX="16.0" layoutY="44.0" prefHeight="30.0" prefWidth="232.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="expressionTextField" alignment="CENTER_RIGHT" editable="false" layoutX="15.0" layoutY="14.0" prefHeight="25.0" prefWidth="232.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="oneOverX" layoutX="16.0" layoutY="342.0" mnemonicParsing="false" onAction="#handle_OneOverXButtonAction" prefHeight="48.0" prefWidth="48.0" text="1/x">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="sqrtButton" layoutX="137.0" layoutY="89.0" mnemonicParsing="false" onAction="#handle_SQRTButtonAction" prefHeight="48.0" prefWidth="48.0" text="sqrt()" />
+    </children>
+</AnchorPane>
